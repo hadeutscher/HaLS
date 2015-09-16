@@ -34,5 +34,17 @@ namespace HaLS.Properties {
                 this["output"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string input {
+            get {
+                return ((string)(this["input"]));
+            }
+            set {
+                this["input"] = value;
+            }
+        }
     }
 }
